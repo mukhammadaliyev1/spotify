@@ -5,9 +5,9 @@ async function getToken() {
         headers: {
           'Content-type': 'application/x-www-form-urlencoded',
           Authorization: `Basic ${btoa(
-            'a444201d05e740a98b8a2813ad984da1' +
+            '50b275d96f164fe9ba01da915b4c199a' +
               ':' +
-              'd3b39c0ae97744099428cd9ddeb3930c'
+              'a6c698d5580a4c5483954fe28d49db45'
           )}`,
         },
         body: 'grant_type=client_credentials',

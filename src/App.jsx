@@ -14,7 +14,7 @@ function App() {
 <Routes>
 <Route path='/' element={<MainLayout><Home></Home></MainLayout>}></Route>
 <Route path='/likes' element={<MainLayout><Likes></Likes></MainLayout>}></Route>
-<Route path='/detailes/:id' element={<MainLayout><Detailes></Detailes></MainLayout>}></Route>
+<Route path='/playlists/:id' element={<MainLayout><Detailes></Detailes></MainLayout>}></Route>
 
 
 
