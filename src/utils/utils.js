@@ -14,7 +14,6 @@ async function getToken() {
       });
   
       const auth = await response.json();
-      console.log(17, auth);
       localStorage.setItem('token', `${auth.token_type} ${auth.access_token}`);
     } catch (error) {
       console.log(error);

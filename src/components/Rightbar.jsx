@@ -1,14 +1,10 @@
-import React from 'react'
+import React from "react";
 
 function Rightbar() {
-  return (
-    <div>
-
-
-
-        
-    </div>
-  )
+  return 
+  <div>
+   
+  </div>;
 }
 
-export default Rightbar
+export default Rightbar;
