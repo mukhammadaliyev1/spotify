@@ -47,7 +47,7 @@ function Leftbar() {
 
         <div className="liked text-white flex flex-wrap items-center gap-2 ">
           <FcLikePlaceholder />
-          <h1>Liked Songs</h1>
+          <Link to={'/likes'}>liked Songs</Link>
         </div>
       </div>
 
